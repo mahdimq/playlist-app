@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Check out the songs!</h1>
+
+<ul>
+{% for song in songs %}
+  <li><a href="/songs/{{song.id}}">{{ song.title }}</a></li>
+{% endfor %}
+</ul>
+
+<p><a class="btn btn-primary" href="/songs/add">Add a song</a></p>
+
+
+{% endblock %}
