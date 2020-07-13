@@ -50,6 +50,8 @@ Using the `movies_db` database, write the correct SQL queries for each of these 
 10. The first and last names of every star along with the number
     of movies they have been in, in descending order by the number of movies. (Similar to #9, make sure that two different actors with the same name are considered separately).
 
+    " I need some help with this one "
+
 ### The rest of these are bonuses
 
 11. The title of every movie along with the number of stars in
